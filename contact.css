@@ -1,0 +1,138 @@
+/* Header Section */
+.header {
+  width: 100%;
+  background-color: yellowgreen;
+}
+
+.navbar-brand {
+  color: white !important;
+}
+.nav-link {
+  color: white !important;
+}
+
+/* Contact Section */
+.form_contact {
+  background-color: rgb(238, 238, 238);
+  height: 500px;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 500px;
+  border-radius: 10px;
+  border-color: rgb(49, 48, 48);
+  border-style: hidden;
+}
+
+.form_contact h3 {
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 125px;
+}
+.form_contact input {
+  width: 390px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  border-radius: 5px;
+}
+
+.form_contact textarea {
+  margin-left: 30px;
+  height: 210px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.form_contact a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(49, 112, 43);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  margin-left: 30px;
+}
+.form_contact a:hover {
+  background-color: yellowgreen;
+  color: black;
+}
+.nama {
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+
+.email {
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+
+.pesan {
+  font-weight: 500;
+  margin-bottom: 5px;
+  padding-left: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .form_contact {
+    height: 350px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+
+  .form_contact h3 {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 35px;
+  }
+
+  .form_contact input {
+    width: 170px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+  }
+
+  .form_contact textarea {
+    margin-left: 15px;
+    height: 100px;
+    width: 170px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .form_contact a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    margin-left: 15px;
+  }
+
+  .nama {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  .email {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+
+  .pesan {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding-left: 15px;
+  }
+}
